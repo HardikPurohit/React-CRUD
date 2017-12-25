@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html,body{height: 100%;}
+#root {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+#root .container {
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+#root .container table{
+  color: #2e618d;
+}
+i{
+  cursor: pointer;
+  font-size: 17px !important;
+}
+.btnSubmit{
+  text-align: center
+}
